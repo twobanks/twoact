@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: var(--white);
+  color: var(--black);
+  width: 100vw;
+  height: 100vh;
+}
+
+.c0 > div:hover {
+  background-size: 115%;
+}
+
+.c1 {
+  height: 30rem;
+  width: 30rem;
+  background-image: url(https://avatars.githubusercontent.com/u/2577611?s=460&u=118117a943294dfb5fb7e4050061133cf7476329&v=4);
+  background-position: center;
+  background-size: 100%;
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  box-shadow: 0 0.188rem 0.375rem var(--shadow);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  />
+</main>
+`;
